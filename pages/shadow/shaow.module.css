@@ -1,0 +1,25 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.shadowCanvas {
+  pointer-events: none;
+  opacity: 0;
+  touch-action: none;
+  animation: fade-in 5s ease 1s forwards;
+}
+
+.char {
+  color: yellowgreen;
+  position: absolute;
+  font-size: 18vw;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  line-height: 0.8em;
+}
